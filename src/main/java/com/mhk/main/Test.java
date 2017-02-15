@@ -24,6 +24,6 @@ public static void main(String[] args) {
      session.save(biography);
      
      transaction.commit();
-    	
+     session.close();
 }
 }
